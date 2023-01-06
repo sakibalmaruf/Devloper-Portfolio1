@@ -58,14 +58,14 @@ nav li {
 
 }
 
-.banner-tittle {
+.banner-title {
 
   font-size: 85px;
   font-weight: 700;
   text-align: left;
 }
 
-.banner-sub-tittle {
+.banner-sub-title {
 
   font-weight: 600;
   font-size: 45px;
@@ -152,17 +152,32 @@ text-align: center;
 margin-top: 130px;
 }
 /* resume style */
-.section-title{
+.title2{
+  text-align: center;
+   margin-top: 130px;
+   font-weight: 700;
+   font-size: 36px;
+   margin-bottom: 130px;
+   border-radius:5px;
+
+
+}
+.resume .sub-title{
   text-align: center;
 }
 .resume-content{
 display: flex;
 gap: 24px;
 }
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .resume .title{
   font-weight: 700;
   font-size: 25px;
   color: #474747;
+  margin-bottom: 10px;
   }
 
 .resume .sub-title {
@@ -172,4 +187,8 @@ font-size: 20px;
 }
 .resume .description {
   color: #757575;
+}
+.resume-btn{
+  margin-top: 50px;
+  
 }
