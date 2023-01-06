@@ -192,3 +192,19 @@ font-size: 20px;
   margin-top: 50px;
   
 }
+/* contact style */
+.contact{
+  display: flex;
+  gap: 100px;
+  background-color: #fff8f3;
+  padding: 130 200;
+}
+.contact .section-title{
+  text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding-left: 10px 30px;
+}
